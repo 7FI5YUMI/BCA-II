@@ -1,0 +1,13 @@
+@media all and ( max-width:480px){
+    .header__main .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__main .row > div.site-logo {
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+}
+S
